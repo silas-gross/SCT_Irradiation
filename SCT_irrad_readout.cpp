@@ -24,7 +24,7 @@ int main(bool irradiated)
 				if (temp.find("Chip") != std::string::npos) chip = 1;
 				if (temp.find("2018") != std::string::npos) temp_time_code = temp;
 			}
-			split_tcode = temp_time_code;
+			split_tcode.str(temp_time_code);
 			while (getline(split_tcode, temptations, '_')) time_code = temptations + " ";
 			std::ifstream log(file_name.c_str());
 			TFile* chip_file = new TFile(("Chip_" + std::to_string(chip_n)+".root").c_str(), "RECREATE");
