@@ -1,0 +1,4 @@
+C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_irrad_readout\SCT_irrad_readout\data_files\TID_data_for_chip_23.dat
+C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_irrad_readout\SCT_irrad_readout\data_files\TID_data_for_chip_48.dat
+C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_irrad_readout\SCT_irrad_readout\data_files\TID_data_for_chip_67.dat
+C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_irrad_readout\SCT_irrad_readout\data_files\TID_data_for_chip_84.dat
