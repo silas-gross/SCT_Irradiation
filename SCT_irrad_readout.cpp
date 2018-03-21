@@ -6,7 +6,7 @@
 
 int main()
 {
-	std::ifstream file_names ("log_testing_files.txt");
+	std::ifstream file_names ("log_data_files.txt");
 	std::string readin;
 	while (file_names.is_open() && !file_names.eof()) {
 		while (getline(file_names, readin)) {

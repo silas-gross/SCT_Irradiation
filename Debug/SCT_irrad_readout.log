@@ -1,5 +1,5 @@
-﻿Build started 3/19/2018 11:23:51 AM.
-     1>Project "C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\SCT_irrad_readout\SCT_irrad_readout.vcxproj" on node 2 (Build target(s)).
+﻿Build started 3/21/2018 9:25:30 AM.
+     1>Project "C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_irrad_readout\SCT_irrad_readout\SCT_irrad_readout.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_analysis\SCT_analysis" /IC:\root_v5.34.36\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\SCT_irrad_readout.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\SCT_analysis\SCT_analysis\SCT_read.cpp
          SCT_read.cpp
@@ -16,30 +16,30 @@
      1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(272): warning C4244: 'argument': conversion from 'float' to 'const long', possible loss of data
      1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(275): warning C4018: '<': signed/unsigned mismatch
      1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(131): warning C4101: 'e': unreferenced local variable
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(352): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(356): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(359): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(362): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(368): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(369): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(369): warning C4305: '=': truncation from 'double' to 'float'
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(375): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(376): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(382): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(413): warning C4244: 'argument': conversion from 'float' to 'const long', possible loss of data
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(416): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(417): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(354): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(358): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(361): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(364): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(370): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(371): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(371): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(377): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(378): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(384): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(415): warning C4244: 'argument': conversion from 'float' to 'const long', possible loss of data
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(418): warning C4018: '<': signed/unsigned mismatch
      1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(419): warning C4018: '<': signed/unsigned mismatch
      1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(421): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(328): warning C4101: 'a': unreferenced local variable
-     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(408): warning C4101: 'e': unreferenced local variable
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(423): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(329): warning C4101: 'a': unreferenced local variable
+     1>c:\users\silas grossberndt\documents\visual studio 2015\projects\sct_analysis\sct_analysis\sct_read.cpp(410): warning C4101: 'e': unreferenced local variable
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\Debug\SCT_irrad_readout.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\root_v5.34.36\lib /LIBPATH:"C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_analysis\SCT_analysis" libhist.lib libTree.lib libGPad.lib libRIO.lib libHistpainter.lib libCore.lib libGraf.lib vectorDict.lib libMatrix.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\Debug\SCT_irrad_readout.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\Debug\SCT_irrad_readout.lib" /MACHINE:X86 Debug\SCT_read.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_irrad_readout\Debug\SCT_irrad_readout.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\root_v5.34.36\lib /LIBPATH:"C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_analysis\SCT_analysis" libhist.lib libTree.lib libGPad.lib libRIO.lib libHistpainter.lib libCore.lib libGraf.lib vectorDict.lib libMatrix.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_irrad_readout\Debug\SCT_irrad_readout.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_irrad_readout\Debug\SCT_irrad_readout.lib" /MACHINE:X86 Debug\SCT_read.obj
          Debug\SCT_irrad_readout.obj
          Debug\stdafx.obj
-         SCT_irrad_readout.vcxproj -> C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\Debug\SCT_irrad_readout.exe
-     1>Done Building Project "C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\SCT_irrad_readout\SCT_irrad_readout.vcxproj" (Build target(s)).
+         SCT_irrad_readout.vcxproj -> C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_irrad_readout\Debug\SCT_irrad_readout.exe
+     1>Done Building Project "C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_irrad_readout\SCT_irrad_readout\SCT_irrad_readout.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.12
+Time Elapsed 00:00:01.64
