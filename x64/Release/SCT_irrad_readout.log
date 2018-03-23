@@ -1,0 +1,112 @@
+﻿Build started 3/23/2018 6:46:31 AM.
+     1>Project "C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\SCT_irrad_readout\SCT_irrad_readout.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\root_v5.34.36\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Release\SCT_irrad_readout.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt ..\..\SCT_analysis\SCT_analysis\SCT_read.cpp
+         SCT_read.cpp
+     1>c:\root_v5.34.36\include\TString.h(484): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TString.h(496): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TString.h(550): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TString.h(559): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TString.h(574): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TString.h(584): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TString.h(596): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TString.h(617): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TString.h(630): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TString.h(633): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TString.h(636): warning C4267: 'argument': conversion from 'size_t' to 'Ssiz_t', possible loss of data
+     1>c:\root_v5.34.36\include\TPad.h(326): warning C4800: 'Int_t': forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\root_v5.34.36\include\TPad.h(327): warning C4800: 'Int_t': forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\root_v5.34.36\include\TPad.h(328): warning C4800: 'Int_t': forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\root_v5.34.36\include\TPad.h(384): warning C4800: 'TVirtualViewer3D *const ': forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(23): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(22): warning C4101: 'e': unreferenced local variable
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(59): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(67): warning C4244: 'initializing': conversion from 'float' to 'long', possible loss of data
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(230): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(272): warning C4244: 'argument': conversion from 'float' to 'const long', possible loss of data
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(131): warning C4101: 'e': unreferenced local variable
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(355): warning C4267: 'argument': conversion from 'size_t' to 'Int_t', possible loss of data
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(362): warning C4267: 'argument': conversion from 'size_t' to 'Int_t', possible loss of data
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(382): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(426): warning C4244: 'argument': conversion from 'float' to 'const long', possible loss of data
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(440): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(329): warning C4101: 'a': unreferenced local variable
+     1>..\..\SCT_analysis\SCT_analysis\SCT_read.cpp(421): warning C4101: 'e': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\x64\Release\SCT_irrad_readout.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\root_v5.34.36\lib /LIBPATH:"C:\Users\Silas Grossberndt\Documents\Visual Studio 2015\Projects\SCT_analysis\SCT_analysis" libhist.lib libTree.lib libGPad.lib libRIO.lib libHistpainter.lib libCore.lib libGraf.lib vectorDict.lib libMatrix.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\x64\Release\SCT_irrad_readout.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\x64\Release\SCT_irrad_readout.lib" /MACHINE:X64 x64\Release\SCT_read.obj
+         x64\Release\SCT_irrad_readout.obj
+         x64\Release\stdafx.obj
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: __cdecl TVersionCheck::TVersionCheck(int)" (??0TVersionCheck@@QEAA@H@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: static void * __cdecl TStorage::ObjectAlloc(unsigned __int64)" (?ObjectAlloc@TStorage@@SAPEAX_K@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual __cdecl TObject::~TObject(void)" (??1TObject@@UEAA@XZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl TObject::Read(char const *)" (?Read@TObject@@UEAAHPEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl TObject::Write(char const *,int,int)" (?Write@TObject@@UEAAHPEBDHH@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl TObject::Write(char const *,int,int)const " (?Write@TObject@@UEBAHPEBDHH@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: static void __cdecl TObject::operator delete(void *)" (??3TObject@@SAXPEAX@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual unsigned long __cdecl TObject::Hash(void)const " (?Hash@TObject@@UEBAKXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual char const * __cdecl TObject::GetName(void)const " (?GetName@TObject@@UEBAPEBDXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual char const * __cdecl TObject::GetTitle(void)const " (?GetTitle@TObject@@UEBAPEBDXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl TObject::IsEqual(class TObject const *)const " (?IsEqual@TObject@@UEBA_NPEBV1@@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: __cdecl TH1F::TH1F(char const *,char const *,int,double,double)" (??0TH1F@@QEAA@PEBD0HNN@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Delete(char const *)" (?Delete@TObject@@UEAAXPEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: __cdecl TVectorT<float>::TVectorT<float>(int)" (??0?$TVectorT@M@@QEAA@H@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: __cdecl TH1F::TH1F(void)" (??0TH1F@@QEAA@XZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: class TAxis * __cdecl TH1::GetXaxis(void)const " (?GetXaxis@TH1@@QEBAPEAVTAxis@@XZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: __cdecl TGraph::TGraph(int,float const *,float const *)" (??0TGraph@@QEAA@HPEBM0@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: class TH1F * __cdecl TGraph::GetHistogram(void)const " (?GetHistogram@TGraph@@QEBAPEAVTH1F@@XZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: __cdecl TCanvas::TCanvas(bool)" (??0TCanvas@@QEAA@_N@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: static class TClass * __cdecl TVectorT<float>::Class(void)" (?Class@?$TVectorT@M@@SAPEAVTClass@@XZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "protected: void __cdecl TVectorT<float>::Delete_m(int,float * &)" (?Delete_m@?$TVectorT@M@@IEAAXHAEAPEAM@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "void __cdecl Fatal(char const *,char const *,...)" (?Fatal@@YAXPEBD0ZZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * const kAssertMsg" (__imp_?kAssertMsg@@3PEBDEB)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Error(char const *,char const *,...)const " (?Error@TObject@@UEBAXPEBD0ZZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl TObject::DoError(int,char const *,char const *,char *)const " (?DoError@TObject@@MEBAXHPEBD0PEAD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::AppendPad(char const *)" (?AppendPad@TObject@@UEAAXPEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Browse(class TBrowser *)" (?Browse@TObject@@UEAAXPEAVTBrowser@@@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual char const * __cdecl TObject::ClassName(void)const " (?ClassName@TObject@@UEBAPEBDXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual class TObject * __cdecl TObject::Clone(char const *)const " (?Clone@TObject@@UEBAPEAV1@PEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl TObject::Compare(class TObject const *)const " (?Compare@TObject@@UEBAHPEBV1@@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Copy(class TObject &)const " (?Copy@TObject@@UEBAXAEAV1@@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl TObject::DistancetoPrimitive(int,int)" (?DistancetoPrimitive@TObject@@UEAAHHH@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::DrawClass(void)const " (?DrawClass@TObject@@UEBAXXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual class TObject * __cdecl TObject::DrawClone(char const *)const " (?DrawClone@TObject@@UEBAPEAV1@PEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Dump(void)const " (?Dump@TObject@@UEBAXXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Execute(class TMethod *,class TObjArray *,int *)" (?Execute@TObject@@UEAAXPEAVTMethod@@PEAVTObjArray@@PEAH@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Execute(char const *,char const *,int *)" (?Execute@TObject@@UEAAXPEBD0PEAH@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::ExecuteEvent(int,int,int)" (?ExecuteEvent@TObject@@UEAAXHHH@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual class TObject * __cdecl TObject::FindObject(class TObject const *)const " (?FindObject@TObject@@UEBAPEAV1@PEBV1@@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual class TObject * __cdecl TObject::FindObject(char const *)const " (?FindObject@TObject@@UEBAPEAV1@PEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual char const * __cdecl TObject::GetDrawOption(void)const " (?GetDrawOption@TObject@@UEBAPEBDXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual unsigned int __cdecl TObject::GetUniqueID(void)const " (?GetUniqueID@TObject@@UEBAIXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual char const * __cdecl TObject::GetIconName(void)const " (?GetIconName@TObject@@UEBAPEBDXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual char * __cdecl TObject::GetObjectInfo(int,int)const " (?GetObjectInfo@TObject@@UEBAPEADHH@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl TObject::HandleTimer(class TTimer *)" (?HandleTimer@TObject@@UEAA_NPEAVTTimer@@@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl TObject::InheritsFrom(class TClass const *)const " (?InheritsFrom@TObject@@UEBA_NPEBVTClass@@@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl TObject::InheritsFrom(char const *)const " (?InheritsFrom@TObject@@UEBA_NPEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Inspect(void)const " (?Inspect@TObject@@UEBAXXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl TObject::IsFolder(void)const " (?IsFolder@TObject@@UEBA_NXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl TObject::Notify(void)" (?Notify@TObject@@UEAA_NXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::ls(char const *)const " (?ls@TObject@@UEBAXPEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Paint(char const *)" (?Paint@TObject@@UEAAXPEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Pop(void)" (?Pop@TObject@@UEAAXXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::RecursiveRemove(class TObject *)" (?RecursiveRemove@TObject@@UEAAXPEAV1@@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::SaveAs(char const *,char const *)const " (?SaveAs@TObject@@UEBAXPEBD0@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::SavePrimitive(class std::basic_ostream<char,struct std::char_traits<char> > &,char const *)" (?SavePrimitive@TObject@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::SetDrawOption(char const *)" (?SetDrawOption@TObject@@UEAAXPEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::SetUniqueID(unsigned int)" (?SetUniqueID@TObject@@UEAAXI@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::UseCurrentStyle(void)" (?UseCurrentStyle@TObject@@UEAAXXZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Info(char const *,char const *,...)const " (?Info@TObject@@UEBAXPEBD0ZZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Warning(char const *,char const *,...)const " (?Warning@TObject@@UEBAXPEBD0ZZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::SysError(char const *,char const *,...)const " (?SysError@TObject@@UEBAXPEBD0ZZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TObject::Fatal(char const *,char const *,...)const " (?Fatal@TObject@@UEBAXPEBD0ZZ)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TVectorT<float>::Draw(char const *)" (?Draw@?$TVectorT@M@@UEAAXPEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TVectorT<float>::Print(char const *)const " (?Print@?$TVectorT@M@@UEBAXPEBD@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TVectorT<float>::ShowMembers(class TMemberInspector &)" (?ShowMembers@?$TVectorT@M@@UEAAXAEAVTMemberInspector@@@Z)
+     1>SCT_read.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl TVectorT<float>::Streamer(class TBuffer &)" (?Streamer@?$TVectorT@M@@UEAAXAEAVTBuffer@@@Z)
+     1>SCT_irrad_readout.obj : error LNK2001: unresolved external symbol "public: __cdecl TFile::TFile(char const *,char const *,char const *,int)" (??0TFile@@QEAA@PEBD00H@Z)
+     1>C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\x64\Release\SCT_irrad_readout.exe : fatal error LNK1120: 68 unresolved externals
+     1>Done Building Project "C:\Users\Silas Grossberndt\documents\visual studio 2015\Projects\SCT_irrad_readout\SCT_irrad_readout\SCT_irrad_readout.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.31
